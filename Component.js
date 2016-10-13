@@ -8,7 +8,7 @@ sap.ui.define([
 	return UIComponent.extend("com.ipragaz.helloworld.Component", {
 		//selcuk karakas
 		// Burhan KARAADERE ekledim
-		// 
+		// burhan 2
 		//abdul
 		//abdul2
 
