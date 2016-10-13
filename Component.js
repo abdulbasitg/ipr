@@ -6,15 +6,12 @@ sap.ui.define([
 	"use strict";
 
 	return UIComponent.extend("com.ipragaz.helloworld.Component", {
-<<<<<<< HEAD
 		//selcuk karakas selcuk
-=======
-		//selcuk karakas
 		//abdul
 		//abdul2
->>>>>>> branch 'master' of https://github.com/abdulbasitg/ipr.git
 		metadata: {
 			manifest: "json"
+			//selcuk karakas
 		},
 
 		/**
