@@ -6,7 +6,7 @@ sap.ui.define([
 	"use strict";
 
 	return UIComponent.extend("com.ipragaz.helloworld.Component", {
-
+		//selcuk karakas
 		metadata: {
 			manifest: "json"
 		},
