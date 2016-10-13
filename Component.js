@@ -8,6 +8,7 @@ sap.ui.define([
 	return UIComponent.extend("com.ipragaz.helloworld.Component", {
 		//selcuk karakas
 		//abdul
+		//abdul2
 		metadata: {
 			manifest: "json"
 		},
