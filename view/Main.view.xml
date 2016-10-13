@@ -1,0 +1,17 @@
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.ipragaz.helloworld.controller.Main">
+	<App>
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<Input value="{mydata>/firstname}"/>
+					<Button text="Denme" width="100px" id="__button0"/>
+					<Input value="{mydata>/telefon[0]/no}"/>
+					<Text text="Merhaba {mydata>/firstname} {mydata&gt;/lastname}"/>
+					<List noDataText="Drop list items here" id="__list0" items="{sapmodel>/usersSet}">
+						<StandardListItem title="{sapmodel>KullaniciAdi}"/>
+					</List>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
