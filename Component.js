@@ -6,14 +6,18 @@ sap.ui.define([
 	"use strict";
 
 	return UIComponent.extend("com.ipragaz.helloworld.Component", {
+
 		//selcuk karakas
 		// Burhan KARAADERE ekledim
-		// burhan 2
+		// burhan 3
 		//abdul
 		//abdul2
 
+
 		metadata: {
 			manifest: "json"
+			//selcuk karakas
+			///sdfasdfasdf
 		},
 
 		/**
@@ -23,6 +27,7 @@ sap.ui.define([
 		 */
 		init: function() {
 			// call the base component's init function
+			//abdul 
 			UIComponent.prototype.init.apply(this, arguments);
 
 			// set the device model
